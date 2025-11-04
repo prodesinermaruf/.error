@@ -235,7 +235,7 @@ my=`  <section class="o1" id="t2">
   </section>
   <section id="a12">
     <div>
-      <h1 id="h2">Loading...<img src="3.png" id="k8" alt="" onclick="bnl()"></h1> 
+      <h1 id="h2"> Add Name<img src="3.png" id="k8" alt="" onclick="bnl()"></h1> 
     </div>  
     <br>
     <div id="c11"></div>
@@ -455,4 +455,5 @@ function addname() {
 
   // Clear input
   document.getElementById("c11").innerHTML = ``;
+
 }
