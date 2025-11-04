@@ -1,0 +1,105 @@
+body{
+  margin: auto;
+  padding: 5%;
+  padding-top: 2%;
+  background:url(1.jpg);
+  background: repeat px;
+}
+#r3{
+  margin:auto;
+  padding: auto;
+  text-align: center;
+}
+
+
+    .n {
+      margin-top: 10px;
+      margin: 2%;
+      padding: 9px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #8eb3a6;
+      
+    }
+
+   
+
+
+#p3,#p4,#p5,#p6{  width: 35px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #8eb3a6;
+}
+
+.n:hover {
+  transform: scale(1.08);  /* শুধু যেটাতে hover করবে সেটাই বড় হবে */
+}
+.n:active {
+  transform: scale(1.02);  /* শুধু যেটাতে active করবে সেটাই small হবে */
+}
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+    background-size: cover;
+  }
+
+  .f1 {
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+  }
+
+  .i1 {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .n {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  #h2 {
+    font-size: 18px;
+  }
+
+  .d1 {
+    width: 90%;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  #p2 {
+    width: 180px;
+  }
+
+  #m1 {
+    padding: 10px;
+    gap: 10px;
+  }
+}
+
+
+
+
+
+
+
